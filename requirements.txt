@@ -1,1 +1,9 @@
+# Core app dependencies
+streamlit==1.44.1        # chat widgets & Community-Cloud runner
+openai==1.14.0           # Assistants-API client
+python-dotenv==1.1.0     # local .env support (optional on Cloud)
+
+# Optional helpers
+pypdf                    # if you parse PDFs
+tiktoken                 # token counting / cost estimates
 

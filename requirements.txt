@@ -1,9 +1,4 @@
-# Core app dependencies
-streamlit==1.44.1        # chat widgets & Community-Cloud runner
-openai==1.14.0           # Assistants-API client
-python-dotenv==1.1.0     # local .env support (optional on Cloud)
-
-# Optional helpers
-pypdf                    # if you parse PDFs
-tiktoken                 # token counting / cost estimates
-
+# requirements.txt  – cleanest path
+streamlit==1.44.1
+openai>=1.56.0          # 1.55.3+ is fine; 1.57.x also okay
+python-dotenv==1.1.0
